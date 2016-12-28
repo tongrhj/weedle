@@ -1,4 +1,3 @@
-
 var webpack = require('webpack')
 var path = require('path')
 var loaders = require('./webpack.loaders')
@@ -39,7 +38,7 @@ module.exports = {
   },
   module: {
     preLoaders: [
-      { test: /\.js$/,
+      { test: /\.jsx$/,
         loader: 'standard',
         exclude: /node_modules/
       }
